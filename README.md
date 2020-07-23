@@ -249,3 +249,10 @@ Trello is the collaboration tool adopted to organize the online food delivery ap
 ![alt DFDimage](./pictures/t5.png?raw=true)
 
 ![alt DFDimage](./pictures/t6.png?raw=true)
+
+specific Challenges Faced:
+
+Node-Client integration: It took me more time than expected.
+
+Design Part: Specially, the input section for dish items is complicated because a user may select more than one dish item quantity of each dish item may be more than one. 
+
