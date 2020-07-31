@@ -1,28 +1,39 @@
-- [**1. Description of my website**](#--1-description-of-my-website--)
-  * [**1.1 Purpose:**](#--11-purpose---)
-  * [**1.2 Functionality / Features**](#--12-functionality---features--)
-    + [1.2.1 Major Features](#121-major-features)
-      - [1.2.1.1 Users:](#1211-users-)
-      - [1.2.1.2 Admin (Restaurant Owner)](#1212-admin--restaurant-owner-)
-    + [1.2.2 Sprinkles](#122-sprinkles)
-      - [1.2.2.1 Users:](#1221-users-)
-      - [1.2.1.2 Admin (Restaurant Owner)](#1212-admin--restaurant-owner--1)
-  * [**1.3 Target audience**](#--13-target-audience--)
-  * [**1.4 Tech stack:**](#--14-tech-stack---)
-  * [1.4.1 Backend](#141-backend)
-    + [1.4.1.1 MongoDB](#1411-mongodb)
-    + [1.4.1.2 Express](#1412-express)
-    + [1.4.1.3 Node.js](#1413-nodejs)
-  * [1.4.2 Front End](#142-front-end)
-    + [1.4.2.1 React:](#1421-react-)
-  * [1.4.3 Deployment](#143-deployment)
-- [**2. Dataflow Diagram of the application:**](#--2-dataflow-diagram-of-the-application---)
-- [**3. Architecture of the application**](#--3-architecture-of-the-application--)
-- [**4. User Stories**](#--4-user-stories--)
-  * [**4.1 Major attributes**](#--41-major-attributes--)
-  * [**4.2 Sprinkles:**](#--42-sprinkles---)
-- [**5. Wireframes**](#--5-wireframes--)
-- [**6. project management and trello**](#--6-project-management-and-trello--)
+- - [Online Dish App](#online-dish-app)
+    + [**1. Description of my website**](#--1-description-of-my-website--)
+      - [**1.1 Purpose:**](#--11-purpose---)
+      - [**1.2 Functionality / Features**](#--12-functionality---features--)
+        * [1.2.1 Major Features](#121-major-features)
+          + [1.2.1.1 Users:](#1211-users-)
+          + [1.2.1.2 Admin (Restaurant Owner)](#1212-admin--restaurant-owner-)
+        * [1.2.2 Sprinkles](#122-sprinkles)
+          + [1.2.2.1 Users:](#1221-users-)
+          + [1.2.1.2 Admin (Restaurant Owner)](#1212-admin--restaurant-owner--1)
+      - [**1.3 Target audience**](#--13-target-audience--)
+      - [**1.4 Tech stack:**](#--14-tech-stack---)
+      - [1.4.1 Backend](#141-backend)
+        * [1.4.1.1 MongoDB](#1411-mongodb)
+        * [1.4.1.2 Express](#1412-express)
+        * [1.4.1.3 Node.js](#1413-nodejs)
+      - [1.4.2 Front End](#142-front-end)
+        * [1.4.2.1 React:](#1421-react-)
+      - [1.4.3 Deployment](#143-deployment)
+    + [**2. Dataflow Diagram of the application:**](#--2-dataflow-diagram-of-the-application---)
+    + [**3. Architecture of the application**](#--3-architecture-of-the-application--)
+    + [**4. User Stories**](#--4-user-stories--)
+      - [**4.1 Major attributes**](#--41-major-attributes--)
+      - [**4.2 Sprinkles:**](#--42-sprinkles---)
+    + [**5. Wireframes**](#--5-wireframes--)
+      - [**Desktop Views**](#--desktop-views--)
+      - [**Mobile Views**](#--mobile-views--)
+    + [**6. Task delegation and trello**](#--6-task-delegation-and-trello--)
+    + [**7. Agile Project Management methodology**](#--7-agile-project-management-methodology--)
+    + [**8. Source control**](#--8-source-control--)
+    + [**9. Deployment**](#--9-deployment--)
+    + [**10. Testing and Evidences**](#--10-testing-and-evidences--)
+    + [**11. Screenshots after deployment**](#--11-screenshots-after-deployment--)
+    + [**12. Challenges and Opportunities**](#--12-challenges-and-opportunities--)
+    + [**13. Learning Outcome and Conclusion**](#--13-learning-outcome-and-conclusion--)
+
 
 
 
@@ -234,7 +245,7 @@ Order Details Page
 ![alt wirefraame pic](./pictures/mobile4.png?raw=true)!
 
 
-### **6. project management and trello**
+### **6. Task delegation and trello**
 
 Trello is the collaboration tool adopted to organize the online food delivery application project into dash board. Some of the screenshots of trello taken from the starting date of documentation has been presented below:
 
@@ -250,9 +261,184 @@ Trello is the collaboration tool adopted to organize the online food delivery ap
 
 ![alt DFDimage](./pictures/t6.png?raw=true)
 
+![alt DFDimage](./pictures/t7.png?raw=true)
+
+![alt DFDimage](./pictures/t8.png?raw=true)
+
+![alt DFDimage](./pictures/t9.png?raw=true)
+
+![alt DFDimage](./pictures/t10.png?raw=true)
+
+![alt DFDimage](./pictures/t11.png?raw=true)
+
+
 specific Challenges Faced:
 
 Node-Client integration: It took me more time than expected.
 
 Design Part: Specially, the input section for dish items is complicated because a user may select more than one dish item quantity of each dish item may be more than one. 
+
+
+### **7. Agile Project Management methodology**
+
+This web app project is based on agile project management. Since the development of this application is not a straight forward approach, so many modifications were required as the project progressed and as I continued manual testing as an user throughout the process, there were many adjustments, mainly in the coding part. Also, while integrating the server and the client, I had to test and review the code not only at the client side but also at the server side. As a whole, the agile project methodology that I applied in this web application development can be visualized as below:
+
+![alt agileimage](./pictures/agile.png?raw=true)
+
+
+Although I have used Trello for task delegation, I found it even more flexible to use Monday for even more effective view and some of the screenshots are presented below:
+![alt agileimage](./pictures/m1.png?raw=true)
+![alt agileimage](./pictures/m2.png?raw=true)
+![alt agileimage](./pictures/m3.png?raw=true)
+![alt agileimage](./pictures/m4.png?raw=true)
+![alt agileimage](./pictures/m5.png?raw=true)
+![alt agileimage](./pictures/m6.png?raw=true)
+
+
+
+The site map of the web application can be summarised by the picture below:
+
+
+![alt DFDimage](./pictures/sitemap.png?raw=true)
+
+
+
+
+### **8. Source control**
+
+
+Git is the source control system for this project and Github is the hosting platform for source control.
+
+The GitHub links to the server, client and the documents is as below:
+
+Server: https://github.com/amrithub/final_project_server
+
+Client: https://github.com/amrithub/final_project_client
+
+documents: https://github.com/amrithub/final_project_documents
+
+
+### **9. Deployment**
+The links for deployed server and the client is as below:
+
+Deployed Links
+
+Client:  https://reverent-chandrasekhar-b06d1f.netlify.app/
+
+Server: https://gentle-tundra-64079.herokuapp.com/
+
+
+
+
+### **9. Testing and Evidences**
+
+Unit Testings:
+
+Unit testing was successfully done for all the routes. It was a mocha test with mocha as dependency. Testing codes for each of the routes( both for dish posts and order posts) were carried out individually and again tested after the completion of Express CRUD and the result of overall test was also successfully acquired which has been listed below:
+
+**Individual unit Test:**
+![alt testingimage](./pictures/ut2.png?raw=true)
+
+![alt testingimage](./pictures/ut1.png?raw=true)
+
+![alt testingimage](./pictures/ut3.png?raw=true)
+
+
+![alt testingimage](./pictures/ut4.png?raw=true)
+
+![alt testingimage](./pictures/ut5.png?raw=true)
+
+![alt testingimage](./pictures/ut6.png?raw=true)
+
+![alt testingimage](./pictures/ut7.png?raw=true)
+
+![alt testingimage](./pictures/ut8.png?raw=true)
+
+![alt testingimage](./pictures/ut9.png?raw=true)
+
+![alt testingimage](./pictures/ut10.png?raw=true)
+
+
+
+**Overall unit Test:**
+![alt testingimage](./pictures/unittest.png?raw=true)
+
+
+**Manual Testing**
+The manual testing performed can be summarised by the table below:
+
+| test        | expected o/p                                                                                                                          | actual O/p                                                                                                                        | remark               | Issue                           |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------------------|---------------------------------|
+| register    | 1. should be able to register with  valid username, email and password 2. user shouldn't be able to  register with existing username. | 1. A new user with  valid details signed  up successfully. 2. Error generated  when attempted to  register with existing username | successful           | none                            |
+| login       | Registered user can log in with correct username and password                                                                         | Login successful with correct username and password, showed  error with incorrect details                                         | successful           | none                            |
+| logout      | Logged in user can logout to home page                                                                                                | As a user, I could log out                                                                                                        | successful           | none                            |
+| Get Post    | 1. User should get  dish posts with and without logging in 2. Admin should get orders and not the user                                | 1. As a user, I could get dish  posts but not orders 2. As an admin, I could get orders                                           | partially successful | Admin role at client for orders |
+| Make Post   | 1. Only Admin should be able to make dish post 2. user should be able to make an order                                                | 1. As an admin, I could easily  post a dish item 2. As an user, I could easily  post an order                                     | successful           | none                            |
+| Delete Post | Only admin should be able to delete dish posts and orders                                                                             | 1. As an admin, I could delete  any post 2. As an user, I couldn't delete any of the posts even at server                         | successful           | none                            |
+| Edit Post   | Only admin should be able to edit dish posts                                                                                          | 1. As an admin, I could edit any post 2. As an user, I couldn't edit any of the posts even at server                              | successful           | none                            |
+
+Evidences:
+Here are some of the evidences of manual testing where error is generated by unauthorised actions:
+
+![alt testingimage](./pictures/error1.png?raw=true)
+
+![alt testingimage](./pictures/error2.png?raw=true)
+
+![alt testingimage](./pictures/error3.png?raw=true)
+
+
+### **10. Screenshots after deployment**
+
+Desktop views:
+
+![alt testingimage](./pictures/dt1.png?raw=true)
+
+![alt testingimage](./pictures/dt2.png?raw=true)
+
+![alt testingimage](./pictures/dt3.png?raw=true)
+
+![alt testingimage](./pictures/dt4.png?raw=true)
+
+![alt testingimage](./pictures/dt5.png?raw=true)
+
+![alt testingimage](./pictures/dt6.png?raw=true)
+
+Mobile Views:
+
+![alt testingimage](./pictures/mv1.png?raw=true)
+
+![alt testingimage](./pictures/mv2.png?raw=true)
+
+![alt testingimage](./pictures/mv3.png?raw=true)
+
+![alt testingimage](./pictures/mv4.png?raw=true)
+
+![alt testingimage](./pictures/mv5.png?raw=true)
+
+![alt testingimage](./pictures/mv6.png?raw=true)
+
+![alt testingimage](./pictures/mv7.png?raw=true)
+
+![alt testingimage](./pictures/mv8.png?raw=true)
+
+![alt testingimage](./pictures/mv9.png?raw=true)
+
+![alt testingimage](./pictures/mv10.png?raw=true)
+
+
+
+
+### **11. Challenges and Opportunities**
+
+Node-Client integration: It took me more time than expected.
+
+The admin role was easily implemented at server side but there was some issue with reading orders at the client side.
+
+My next challenge is to implement Stripe Payment System in this app and that will be another opportunity for me to learn.
+
+### **12. Learning Outcome and Conclusion**
+1. I felt it was more like a learning process and overall project development taught me that web app development needs a lot of patience and the outcome is never the actual reflection of the performance for the outsiders or users. In fact I have learned to be more patient.
+
+2. Web application development is building and learning side by side, my experience form this project says it.
+
 
